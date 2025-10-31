@@ -1,5 +1,5 @@
-import Header from '@/components/Header';
-import SignatureCards from '@/components/SignatureCards';
+import Header from '../components/Header';
+import SignatureCards from '../components/SignatureCards';
 
 export default function Page() {
   return (
