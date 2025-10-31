@@ -105,7 +105,7 @@ export default function Page() {
               <p><strong>Address:</strong> [Update with street, Arlington, MA]</p>
               <p><strong>Phone:</strong> (781) 316-0138</p>
               <p><strong>CATERING HOTLINE:</strong> (617) 922-4704</p>
-              <p><strong>Email:</strong> josestorta@gmai.com</p>
+              <p><strong>Email:</strong> josestorta@gmail.com</p>
             </div>
             <div className="mt-6 rounded-2xl overflow-hidden border border-neutral-200">
               <iframe title="Map" src="https://maps.google.com/maps?q=Arlington%2C%20MA&t=&z=13&ie=UTF8&iwloc=&output=embed" className="w-full h-72" loading="lazy" />
