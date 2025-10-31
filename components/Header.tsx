@@ -22,7 +22,7 @@ export default function Header() {
         {/* Logo + nombre */}
         <Link href={isES ? '/es' : '/'} className="flex items-center gap-3">
           <Image
-            src="/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
+            src="../public/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
             alt="Jose’s Torta Mexicana logo"
             width={40}
             height={40}
