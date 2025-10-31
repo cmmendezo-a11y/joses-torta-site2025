@@ -22,12 +22,12 @@ export default function Header() {
         {/* Logo + nombre */}
         <Link href={isES ? '/es' : '/'} className="flex items-center gap-3">
           <Image
-            src="/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
+            src="../public/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
             alt="Jose’s Torta Mexicana logo"
             width={120}
             height={120}
             priority
-            className="h-auto w-auto object-contain"
+            className="rounded-full object-contain shadow-sm ring-2 ring-amber-300/40"
           />
           <div className="hidden sm:block leading-tight">
             <h1 className="text-lg font-bold tracking-tight">Jose’s Torta Mexicana</h1>
