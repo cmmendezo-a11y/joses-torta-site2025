@@ -24,10 +24,10 @@ export default function Header() {
           <Image
             src="../public/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
             alt="Jose’s Torta Mexicana logo"
-            width={40}
-            height={40}
+            width={120}
+            height={120}
             priority
-            className="h-10 w-10 rounded-xl object-contain"
+            className="h-auto w-auto object-contain"
           />
           <div className="hidden sm:block leading-tight">
             <h1 className="text-lg font-bold tracking-tight">Jose’s Torta Mexicana</h1>
