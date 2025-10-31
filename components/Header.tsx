@@ -24,8 +24,8 @@ export default function Header() {
           <Image
             src="../public/tortamexicanafinal.jpg"                 // <— usa el nombre real del archivo que subiste
             alt="Jose’s Torta Mexicana logo"
-            width={200}
-            height={200}
+            width={100}
+            height={100}
             priority
             className="h-10 w-10 rounded-xl object-contain"
           />
