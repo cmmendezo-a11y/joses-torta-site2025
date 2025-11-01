@@ -27,7 +27,7 @@ export default function PageES() {
           </div>
           <div className="relative">
             <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-lg border border-neutral-200">
-              <img src="https://images.unsplash.com/photo-1617191518004-1d5a2ebfa75f?q=80&w=1200&auto=format&fit=crop" alt="Torta milanesa" className="h-full w-full object-cover" />
+              <img src="../public/f58d4cf5-f8e9-4d54-80db-94ec10e9e6b4.jpg" alt="Torta milanesa" className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
