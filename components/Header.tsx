@@ -39,7 +39,14 @@ export default function Header() {
               <a href="#menu" className="hover:text-amber-600 transition">Menu</a>
               <a href="#our-story" className="hover:text-amber-600 transition">Our Story</a>
               <a href="#visit" className="hover:text-amber-600 transition">Visit</a>
-              <a href="#order" className="hover:text-amber-600 transition">Order Online</a>
+              <a 
+                href="https://josestorta.smartonlineorder.com/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Order Online
+              </a>
             </nav>
         {/* Right side (botones / idioma) */}
         <div className="flex items-center gap-3">
