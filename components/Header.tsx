@@ -34,7 +34,13 @@ export default function Header() {
             <p className="text-xs text-neutral-500">Authentic Mexican • Arlington, MA</p>
           </div>
         </Link>
-
+        {/* Right side: Navigation */}
+            <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-700">
+              <a href="#menu" className="hover:text-amber-600 transition">Menu</a>
+              <a href="#our-story" className="hover:text-amber-600 transition">Our Story</a>
+              <a href="#visit" className="hover:text-amber-600 transition">Visit</a>
+              <a href="#order" className="hover:text-amber-600 transition">Order Online</a>
+            </nav>
         {/* Right side (botones / idioma) */}
         <div className="flex items-center gap-3">
           <button
