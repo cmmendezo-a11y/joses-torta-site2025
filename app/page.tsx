@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import SignatureCards from '../components/SignatureCards';
+import Image from 'next/image'; // arriba con los otros imports
 
 export default function Page() {
   return (
@@ -27,7 +28,7 @@ export default function Page() {
           </div>
           <div className="relative">
             <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-lg border border-neutral-200">
-              <img src="/f58d4cf5-f8e9-4d54-80db-94ec10e9e6b4.jpg" alt="Milanesa torta" className="h-full w-full object-cover" />
+              <img src="/70270364_127636468588392_5807982599620001792_o.jpg" alt="Milanesa torta" className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
@@ -79,7 +80,17 @@ export default function Page() {
             </ul>
           </div>
           <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-lg border border-neutral-200">
-            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop" alt="Fresh tacos" className="h-full w-full object-cover" />
+import Image from 'next/image'; // arriba con los otros imports
+
+          <Image
+            src="/70270364_127636468588392_5807982599620001792_o.jpg"   // tu archivo en /public
+            alt="Signature torta from José’s"
+            width={1200}
+            height={800}
+            priority
+            className="h-full w-full object-cover"
+          />
+            
           </div>
         </div>
       </section>
