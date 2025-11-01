@@ -27,7 +27,7 @@ export default function Header() {
             width={100}
             height={80}
             priority
-            className="rounded-full object-contain shadow-sm ring-2 ring-amber-300/100"
+            className="h-auto w-auto object-contain"
           />
           <div className="hidden sm:block leading-tight">
             <h1 className="text-lg font-bold tracking-tight">Jose’s Torta Mexicana</h1>
