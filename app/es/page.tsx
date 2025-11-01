@@ -76,8 +76,8 @@ export default function PageES() {
             <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Visítanos</h3>
             <div className="mt-3 space-y-1 text-neutral-700">
               <p><strong>Dirección:</strong> [Actualiza con la calle, Arlington, MA]</p>
-              <p><strong>Teléfono:</strong> (###) ###-####</p>
-              <p><strong>Correo:</strong> info@josestorta.com</p>
+              <p><strong>Teléfono:</strong> (781) 316-0138</p>
+              <p><strong>Correo:</strong> josestorta@gmail.com</p>
             </div>
             <div className="mt-6 rounded-2xl overflow-hidden border border-neutral-200">
               <iframe title="Mapa" src="https://maps.google.com/maps?q=Arlington%2C%20MA&t=&z=13&ie=UTF8&iwloc=&output=embed" className="w-full h-72" loading="lazy" />
